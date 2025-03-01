@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 int main() {
-
-    int watermelon_weigh = 0;
-    scanf("%i", &watermelon_weigh);
-    if (watermelon_weigh % 2 == 0 && watermelon_weigh > 0)
+    int w;
+    scanf("%d", &w);
+    
+    if (w > 2 && w % 2 == 0) {
         printf("YES\n");
-    else 
+    } else {
         printf("NO\n");
+    }
 
-
+    return 0;
 }
